@@ -1,0 +1,27 @@
+{
+  "theme": "dark",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4.1-flash",
+  "defaultThinkingLevel": "low",
+  "defaultTools": [
+    "+codemode"
+  ],
+  "codemode": {
+    "mode": "on"
+  },
+  "packages": [
+    "https://github.com/elpapi42/pi-observational-memory",
+    "npm:@pi-plugins/speed",
+    "npm:pi-goal-x",
+    "https://github.com/michaelmjhhhh/pi-atelier"
+  ],
+  "piBolt": {
+    "packages": [
+      "npm:opensec-pi-subagents@0.20.9",
+      "npm:opensec-pi-todo@2.13.1",
+      "npm:opensec-pi-fff@0.11.0"
+    ],
+    "packagesOverlay": true
+  },
+  "hideThinkingBlock": false
+}

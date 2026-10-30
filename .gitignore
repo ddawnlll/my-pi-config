@@ -1,0 +1,24 @@
+# Never commit credentials or runtime state
+auth.json
+**/auth.json
+sessions/
+logs/
+cache/
+models-store.json
+goals/
+*.db
+*.db-journal
+*.mdb
+*.log
+npm/
+node_modules/
+git/
+
+# Backups created by the install scripts
+*.bak
+backups/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
